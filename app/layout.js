@@ -19,7 +19,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${outfit.variable} ${ovo.variable} h-full antialiased`}
+      <body className={`${outfit.variable} ${ovo.variable} h-full antialiased 
+      leading-8 overflow-x-hidden`}
       >
         {children}
       </body>
