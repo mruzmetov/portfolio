@@ -113,13 +113,13 @@ export const infoList = [
         icon: assets.code_icon, 
         iconDark: assets.code_icon_dark, 
         title: 'Languages', 
-        description: 'HTML, CSS, JavaScript React Js, Next Js' 
+        description: 'HTML, CSS, JavaScript React Js, Next Js, Python,' 
     },
     { 
         icon: assets.edu_icon, 
         iconDark: assets.edu_icon_dark, 
         title: 'Education', 
-        description: 'B.Tech in Software Engineering' 
+        description: 'Bachelor`s: Urgench Branch of the Tashkent University of Information Technologies in Software Engineering' 
     },
     { 
         icon: assets.project_icon, 
@@ -130,5 +130,5 @@ export const infoList = [
 ];
 
 export const toolsData = [
-    assets.vscode, assets.pycharm, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.pycharm, assets.git, assets.mongodb, assets.figma, assets.firebase
 ];

@@ -4,8 +4,8 @@
 
 @theme {
   /* Maxsus ranglar */
-  --color-light-hover: #fcf4ff;
-  --color-dark-hover: #2a004a;
+  --color-lightHover: #fcf4ff;
+  --color-darkHover: #2a004a;
   --color-dark-theme: #11001F;
 
   /* Maxsus shriftlar */
