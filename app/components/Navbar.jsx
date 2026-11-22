@@ -34,13 +34,13 @@ const Navbar = () => {
         <nav className=
         {`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 
         flex items-center justify-between z-50 
-        ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm" : ""}`}>
+        ${isScroll ? "bg-white/50 backdrop-blur-lg shadow-sm" : ""}`}>
             <a href='#top'>
                 <Image src={assets.logo} className='w-40 cursor-pointer mr-14' alt=""/>
             </a>
 
             <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full 
-            px-12 py-3 ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50"}`}>
+            px-12 py-3 ${isScroll ? "" : "bg-white/50 shadow-sm"}`}>
                 <li><a className='font-ovo' href='#top'>Home</a></li>
                 <li><a className='font-ovo' href='#about'>About me</a></li>
                 <li><a className='font-ovo' href='#services'>Services</a></li>
